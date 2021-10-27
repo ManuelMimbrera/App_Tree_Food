@@ -12,7 +12,7 @@
         android:id="@+id/editarperfil"
         android:layout_width="300dp"
         android:layout_height="60dp"
-        android:text="Editar mi perfil hsgahgsadfsdfsdf"
+        android:text="Editar mi perfil"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         app:icon="@drawable/ic_outline_person_pin_24"
