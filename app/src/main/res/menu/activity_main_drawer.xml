@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+        <item
+            android:id="@+id/nav_menu"
+            android:icon="@drawable/ic_baseline_restaurant_menu_24"
+            android:title="Menu" />
+        <item
+            android:id="@+id/nav_clientes"
+            android:icon="@drawable/ic_baseline_shopping_bag_24"
+            android:title="Clientes" />
+        <item
+            android:id="@+id/nav_cuenta"
+            android:icon="@drawable/ic_baseline_account_circle_26"
+            android:title="Cuenta" />
+        <!--
+               <item
+                   android:id="@+id/nav_clientes"
+                   android:icon="@drawable/ic_baseline_account_circle_24"
+                   android:title="@string/menu_cliente" />
+               <item
+                   android:id="@+id/nav_productos"
+                   android:icon="@drawable/ic_baseline_shopping_bag_24"
+                   android:title="@string/menu_producto" />
+               <item
+                   android:id="@+id/nav_categorias"
+                   android:icon="@drawable/ic_baseline_category_24"
+                   android:title="@string/menu_categoria" />
+
+               <item
+                   android:id="@+id/nav_ventas"
+                   android:icon="@drawable/ic_baseline_add_shopping_cart_24"
+                   android:title="@string/menu_carrito" />
+                   <item
+                       android:id="@+id/nav_hadware"
+                       android:icon="@drawable/ic_baseline_sticky_note_2_24"
+                       android:title="Reportes" />
+                   <item
+                       android:id="@+id/nav_mapa"
+                       android:icon="@drawable/ic_baseline_map_24"
+                       android:title="Mapa" />
+                       -->
+
+</menu>

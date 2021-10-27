@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_menu">
+    <fragment
+        android:id="@+id/nav_menu"
+        android:name="com.example.practica1.ui.menu.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/nav_burger"
+            app:destination="@id/burgerFragment" />
+        <action
+            android:id="@+id/nav_hotdogs"
+            app:destination="@id/hotdogsFragment" />
+        <action
+            android:id="@+id/nav_papas"
+            app:destination="@id/papasFragment" />
+        <action
+            android:id="@+id/nav_alitas"
+            app:destination="@id/alitasFragment" />
+        <action
+            android:id="@+id/nav_bebidas"
+            app:destination="@id/bebidasFragment" />
+        <action
+            android:id="@+id/nav_burritos"
+            app:destination="@id/burritosFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/papasFragment"
+        android:name="com.example.practica1.ui.menu.PapasFragment"
+        android:label="fragment_papas"
+        tools:layout="@layout/fragment_papas" />
+    <fragment
+        android:id="@+id/alitasFragment"
+        android:name="com.example.practica1.ui.menu.AlitasFragment"
+        android:label="fragment_alitas"
+        tools:layout="@layout/fragment_alitas" />
+    <fragment
+        android:id="@+id/hotdogsFragment"
+        android:name="com.example.practica1.ui.menu.HotdogsFragment"
+        android:label="fragment_hotdogs"
+        tools:layout="@layout/fragment_hotdogs" />
+    <fragment
+        android:id="@+id/bebidasFragment"
+        android:name="com.example.practica1.ui.menu.BebidasFragment"
+        android:label="fragment_bebidas"
+        tools:layout="@layout/fragment_bebidas" />
+    <fragment
+        android:id="@+id/burgerFragment"
+        android:name="com.example.practica1.ui.menu.BurgerFragment"
+        android:label="fragment_burger"
+        tools:layout="@layout/fragment_burger" />
+    <fragment
+        android:id="@+id/burritosFragment"
+        android:name="com.example.practica1.ui.menu.BurritosFragment"
+        android:label="fragment_burritos"
+        tools:layout="@layout/fragment_burritos" />
+
+    <fragment
+        android:id="@+id/nav_clientes"
+        android:name="com.example.practica1.ui.cliente.ClienteFragment"
+        android:label="@string/menu_cliente"
+        tools:layout="@layout/fragment_cliente" />
+
+    <fragment
+        android:id="@+id/nav_clientes_eliminar"
+        android:name="com.example.practica1.ui.cliente.EliminarCliente"
+        android:label="@string/menu_elim_cli"
+        tools:layout="@layout/fragment_eliminar_cliente" />
+
+    <fragment
+        android:id="@+id/nav_register_clientes"
+        android:name="com.example.practica1.ui.cliente.RegisterClienteFragment"
+        android:label="@string/menu_datos_cliente"
+        tools:layout="@layout/fragment_register_cliente" />
+
+    <fragment
+        android:id="@+id/nav_productos"
+        android:name="com.example.practica1.ui.productos.ProductosFragment"
+        android:label="@string/menu_producto"
+        tools:layout="@layout/fragment_productos" />
+
+    <fragment
+        android:id="@+id/nav_productos_eliminar"
+        android:name="com.example.practica1.ui.productos.EliminarProductos"
+        android:label="@string/menu_elim_prod"
+        tools:layout="@layout/fragment_eliminar_productos" />
+
+    <fragment
+        android:id="@+id/nav_datos_producto"
+        android:name="com.example.practica1.ui.productos.DatosProducto"
+        android:label="@string/menu_datos_producto"
+        tools:layout="@layout/fragment_datos_producto" />
+
+    <fragment
+        android:id="@+id/nav_categorias"
+        android:name="com.example.practica1.ui.categoria.CategoriasFragment"
+        android:label="@string/menu_categoria"
+        tools:layout="@layout/fragment_categorias" />
+
+    <fragment
+        android:id="@+id/nav_categorias_eliminar"
+        android:name="com.example.practica1.ui.categoria.EliminarCategoria"
+        android:label="@string/menu_elim_cate"
+        tools:layout="@layout/fragment_eliminar_categoria" />
+
+    <fragment
+        android:id="@+id/nav_datos_categoria"
+        android:name="com.example.practica1.ui.categorias.DatosCategoria"
+        android:label="@string/menu_datos_categoria"
+        tools:layout="@layout/fragment_datos_categoria" />
+
+    <fragment
+        android:id="@+id/nav_ventas"
+        android:name="com.example.practica1.ui.ventas.DatosVenta"
+        android:label="@string/menu_carrito"
+        tools:layout="@layout/fragment_datos_venta" />
+
+    <fragment
+        android:id="@+id/nav_finalizar_ven"
+        android:name="com.example.practica1.ui.ventas.FinalizarVenta"
+        android:label="@string/menu_finalizar"
+        tools:layout="@layout/fragment_finalizar_venta" />
+
+    <fragment
+        android:id="@+id/nav_eliminar_ven"
+        android:name="com.example.practica1.ui.ventas.EliminarOpcion"
+        android:label="@string/menu_elim_prod"
+        tools:layout="@layout/fragment_eliminar_opcion" />
+
+    <activity
+        android:id="@+id/nav_hadware"
+        android:name="com.example.practica1.ui.hardware.HardwareActivity"
+        android:label="Harware"
+        tools:layout="@layout/activity_hardware" />
+
+    <activity
+        android:id="@+id/nav_mapa"
+        android:name="com.example.practica1.ui.mapa.MapsActivity"
+        android:label="Mapa"
+        tools:layout="@layout/activity_maps" />
+
+    <fragment
+        android:id="@+id/nav_cuenta"
+        android:name="com.example.practica1.ui.cuenta.CuentaFragment"
+        android:label="fragment_cuenta"
+        tools:layout="@layout/fragment_cuenta" />
+
+    <fragment
+        android:id="@+id/nav_register_usuarios"
+        android:name="com.example.practica1.ui.cuenta.RegisterUserFragment"
+        android:label="fragment_register_usuarios"
+        tools:layout="@layout/fragment_register_user" />
+
+    <fragment
+        android:id="@+id/nav_usuarios"
+        android:name="com.example.practica1.ui.cuenta.UsuarioFragment"
+        android:label="fragment_usuario"
+        tools:layout="@layout/fragment_usuario" />
+
+</navigation>

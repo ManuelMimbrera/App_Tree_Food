@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">Practica1</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Clientes -->
+    <string name="menu_cliente">Cliente</string>
+    <string name="menu_elim_cli">Cliente a eliminar</string>
+    <string name="txt_list_cli">Listado de clientes</string>
+    <string name="btn_sin_clientes">Mostrar clientes</string>
+    <string name="txt_no_cliente">No. cliente</string>
+    <string name="txt_nombre_cliente">Nombre(s)</string>
+    <string name="txt_apat_cliente">Apellido paterno</string>
+    <string name="txt_amat_cliente">Apellido materno</string>
+    <string name="txt_razon_cliente">Razón social</string>
+    <string name="txt_rfc_cliente">RFC</string>
+    <string name="txt_tel_cliente">Teléfono</string>
+    <string name="txt_direc_cliente">Dirección</string>
+    <string name="txt_pais_cliente">País</string>
+    <string name="txt_email_cliente">Correo electrónico</string>
+    <string name="txt_estado_cliente">Estado</string>
+    <string name="menu_datos_cliente">Regitrar Cliente</string>
+
+    <!-- Productos -->
+    <string name="menu_producto">Productos</string>
+    <string name="menu_elim_prod">Producto a eliminar</string>
+    <string name="txt_list_prod">Listado de productos</string>
+    <string name="btn_sin_productos">Mostrar productos</string>
+    <string name="txt_nombre_prod">Nombre</string>
+    <string name="txt_desc_prod">Breve descripción</string>
+    <string name="txt_precio_prod">Precio</string>
+    <string name="menu_datos_producto">Agregar producto</string>
+
+    <!-- Categorías -->
+    <string name="menu_categoria">Categorías</string>
+    <string name="menu_elim_cate">Categoría a eliminar</string>
+    <string name="txt_titulo">Categorías</string>
+    <string name="txt_list_cat">Listado de categorías</string>
+    <string name="btn_sin_cate">Mostrar categorías</string>
+    <string name="txt_nombre_cate">Nombre</string>
+    <string name="txt_desc_cate">Descripción</string>
+    <string name="txt_estado_cate">Estado inicial(Activo/Desactivo)</string>
+    <string name="menu_datos_categoria">Nueva categoría</string>
+
+    <!-- Ventas -->
+    <string name="menu_carrito">Carrito</string>
+    <string name="menu_finalizar">Comprar producto</string>
+    <string name="txt_list_ven">Productos a comprar</string>
+    <string name="txt_pagar_total">Total a pagar</string>
+    <string name="txt_pago">Efectivo</string>
+    <string name="txt_regreso">Cambio</string>
+    <string name="btn_agregar_carrito">AGREGAR AL CARRITO</string>
+    <string name="btn_prod_ven">Productos en el carrito</string>
+    <string name="btn_comprar">Comprar ahora</string>
+    <string name="btn_fin_ven">Finalizar compra</string>
+
+    <!-- Login -->
+    <string name="txt_usuario">Correo electrónico</string>
+    <string name="txt_contrasena">Contraseña</string>
+    <string name="btn_sesion">Ingresar ss</string>
+
+    <!-- Público -->
+    <string name="btn_aceptar">Aceptar</string>
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="btn_editar">Editar</string>
+    <string name="btn_eliminar">Eliminar</string>
+    <string name="btn_guardar_datos">Guardar datos</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main_hardware">MainHardware</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_hardware">HardwareActivity</string>
+
+    <string name="default_info_title">Default Location</string>
+    <string name="default_info_snippet">No places found, because location permission is disabled.</string>
+    <string name="pick_place">Choose a place</string>
+
+    <!-- TODO: Textos para los cuadros de menu -->
+    <string name="txt_menu_hamburguesa">Hamburguesas</string>
+    <string name="txt_menu_hotdogs">Hot Dogs</string>
+    <string name="txt_menu_papas">Papas a la Francesa</string>
+    <string name="txt_menu_alitas">Alitas</string>
+    <string name="txt_menu_burros">Burritos</string>
+    <string name="txt_menu_bebidas">Bebidas</string>
+
+    <!-- TODO: descripcion de las tarjetas de cada alimento -->
+    <string name="tituloIng">Ingredientes</string>
+    <string name="txt_hsencilla">Carne, jamón, queso y lechuga</string>
+    <string name="txt_hhawaiana">Carne, jamón, piña, queso y lechuga</string>
+    <string name="txt_hmonstruo">2 Carnes, jamón, piña, queso, lechuga, salchicha y tocino</string>
+    <string name="txt_papsc">Papas fritas, queso, crema, captsup y salsa</string>
+    <string name="txt_bistec">Pimientos picados, carne picada, bistec y lechuga</string>
+    <string name="txt_pastor">Pimientos picados, carne picada, pastor y pechuga</string>
+    <string name="txt_hotdogsencillo">Salchicha, jitomate, cebolla y chiles</string>
+    <string name="txt_hotdoghawaino">Salchicha, jitomate, cebolla, chiles y piña</string>
+    <string name="txt_alitas">Alitas, salsa, BBQ y lechuga</string>
+
+
+    <!-- TODO: Texto del contador -->
+    <string name="txt_cantidad">CANTIDAD</string>
+    <string name="txt_H">HAMBURGUESAS</string>
+    <string name="txt_D">HOT DOGS</string>
+    <string name="txt_B">BURRITOS</string>
+    <string name="txt_A">ALITAS</string>
+
+</resources>

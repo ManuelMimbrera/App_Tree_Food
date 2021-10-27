@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.cuenta.CuentaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/editarperfil"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Editar mi perfil"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:icon="@drawable/ic_outline_person_pin_24"
+        style="?attr/materialButtonOutlinedStyle"
+
+        />
+    <Button
+        android:id="@+id/acerca_de"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="acerca de"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:icon="@drawable/ic_outline_info_24"
+        style="?attr/materialButtonOutlinedStyle"
+        />
+    <Button
+        android:id="@+id/tutorial"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="tutorial"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:icon="@drawable/ic_outline_featured_play_list_24"
+        style="?attr/materialButtonOutlinedStyle"/>
+
+    <Button
+        android:id="@+id/Info_extra"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Outlined button"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        style="?attr/materialButtonOutlinedStyle"
+        />
+
+    <Button
+        android:id="@+id/cerrarsesión"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="cerrar sesión"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:icon="@drawable/ic_outline_exit_to_app_24"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        app:backgroundTint="#D81010"
+        />
+
+</LinearLayout>
